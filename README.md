@@ -1,13 +1,12 @@
 # F6X MINECRAFT MOD TUTORIAL
-Tutorial Minecraft Mod
 - Description :
 
-  - Tutorial Minecraft Mod
+  - Tutorial Minecraft Mod.
   - This project is for learning purposes only.
 
 - Versions :
 
-  - F6X MINECRAFT MOD TUTORIAL : 0.0.1
+  - F6X MINECRAFT MOD TUTORIAL : 0.1.0
   - MINECRAFT : 1.20.1
   - FORGE : 1.20.1 - 47.0.19
 
