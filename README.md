@@ -4,9 +4,15 @@
   - Tutorial Minecraft Mod.
   - This project is for learning purposes only.
 
+- Content :
+
+  - Tab : Mod Tutorial.
+  - Item : Sapphire.
+  - Item : Raw Sapphire.
+
 - Versions :
 
-  - F6X MINECRAFT MOD TUTORIAL : 0.1.0
+  - F6X MINECRAFT MOD TUTORIAL : 0.2.0
   - MINECRAFT : 1.20.1
   - FORGE : 1.20.1 - 47.0.19
 
