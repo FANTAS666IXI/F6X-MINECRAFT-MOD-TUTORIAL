@@ -1,7 +1,9 @@
 {
   "creativetab.tutorial_tab": "Tutorial Tab",
+  "item.tutorialmod.f6x": "F6X",
   "item.tutorialmod.raw_sapphire": "Raw Sapphire",
   "item.tutorialmod.sapphire": "Sapphire",
+  "block.tutorialmod.f6x_block": "Block F6X",
   "block.tutorialmod.raw_sapphire_block": "Block of Raw Sapphire",
   "block.tutorialmod.sapphire_block": "Block of Sapphire"
 }

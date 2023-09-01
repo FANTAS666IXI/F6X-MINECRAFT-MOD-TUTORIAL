@@ -12,9 +12,11 @@ import net.minecraftforge.registries.RegistryObject;
 
 public class ModCreativeModTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, TutorialMod.MOD_ID);
-    public static final RegistryObject<CreativeModeTab> TUTORIAL_TAB = CREATIVE_MODE_TABS.register("tutorial_tab", () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.RAW_SAPPHIRE.get())).title(Component.translatable("creativetab.tutorial_tab")).displayItems(((pParameters, pOutput) -> {
+    public static final RegistryObject<CreativeModeTab> TUTORIAL_TAB = CREATIVE_MODE_TABS.register("tutorial_tab", () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.F6X.get())).title(Component.translatable("creativetab.tutorial_tab")).displayItems(((pParameters, pOutput) -> {
+        pOutput.accept(ModItems.F6X.get());
         pOutput.accept(ModItems.RAW_SAPPHIRE.get());
         pOutput.accept(ModItems.SAPPHIRE.get());
+        pOutput.accept(ModBlocks.F6X_BLOCK.get());
         pOutput.accept(ModBlocks.RAW_SAPPHIRE_BLOCK.get());
         pOutput.accept(ModBlocks.SAPPHIRE_BLOCK.get());
     })).build());
