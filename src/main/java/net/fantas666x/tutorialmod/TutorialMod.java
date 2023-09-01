@@ -1,6 +1,7 @@
 package net.fantas666x.tutorialmod;
 
 import com.mojang.logging.LogUtils;
+import net.fantas666x.tutorialmod.block.ModBlocks;
 import net.fantas666x.tutorialmod.item.ModCreativeModTabs;
 import net.fantas666x.tutorialmod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -25,6 +26,7 @@ public class TutorialMod {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
         ModCreativeModTabs.register(modEventBus);
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
         modEventBus.addListener(this::commonSetup);
         MinecraftForge.EVENT_BUS.register(this);
         modEventBus.addListener(this::addCreative);
@@ -34,10 +36,10 @@ public class TutorialMod {
     }
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-        if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+        /*if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.SAPPHIRE);
             event.accept(ModItems.RAW_SAPPHIRE);
-        }
+        }*/
     }
 
     @SubscribeEvent

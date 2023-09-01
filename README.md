@@ -7,12 +7,16 @@
 - Content :
 
   - Tab : Mod Tutorial.
-  - Item : Sapphire.
   - Item : Raw Sapphire.
+  - Item : Sapphire.
+  - Item : Block of Raw Sapphire.
+  - Item : Block of Sapphire.
+  - Block : Block of Raw Sapphire.
+  - Block : Block of Sapphire.
 
 - Versions :
 
-  - F6X MINECRAFT MOD TUTORIAL : 0.2.0
+  - F6X MINECRAFT MOD TUTORIAL : 0.3.0
   - MINECRAFT : 1.20.1
   - FORGE : 1.20.1 - 47.0.19
 
